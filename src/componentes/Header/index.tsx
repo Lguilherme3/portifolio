@@ -1,7 +1,7 @@
 import banner3 from "../../imagens/banner1.jpg";
 import perfilHome from "../../imagens/perfilfotohome.png";
 import styled from "styled-components";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 
 const Cabecalho = styled.header`
   height: 300px;
@@ -47,7 +47,10 @@ function Header() {
   return (
     <Cabecalho>
       
-        <TypeAnimation
+        <p>
+        Bem-vindo ao portfólio de um desenvolvedor Front-End em construção.
+        </p>
+        {/* <TypeAnimation
           sequence={[
             "Bem-vindo ao portfólio de um desenvolvedor Front-End em construção.",
             1100,
@@ -56,7 +59,7 @@ function Header() {
           cursor={true}
           repeat={Infinity}
           style={{ fontSize: "2.2em" }}
-        />
+        /> */}
 
         <img src={perfilHome} alt="" />
       
