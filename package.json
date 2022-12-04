@@ -11,7 +11,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "babel-runtime": "^6.26.0",
-    "react": "^18.2.0",
+    "react": "18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "react-typing-animation": "^1.6.2",
