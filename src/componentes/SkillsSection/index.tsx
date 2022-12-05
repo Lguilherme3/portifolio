@@ -8,7 +8,7 @@ import logoPhp from "../../imagens/php.png";
 
 const Section = styled.section`
   background-color: #0a192f;
-  padding-bottom: 36px;
+
   text-align: center;
   color: white;
   display: row;

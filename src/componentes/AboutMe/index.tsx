@@ -8,7 +8,7 @@ import whatsapp from "../../imagens/whatsapp-logo.png";
 const AboutMeSection = styled.section`
   background-color: #0a192f;
   width: 100%;
-  padding: 64px 0;
+  padding: 32px 0;
   h3 {
     font-weight: bolder;
     color: #64ffda;
