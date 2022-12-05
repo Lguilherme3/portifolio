@@ -4,7 +4,7 @@ import styled from "styled-components";
 // import { TypeAnimation } from "react-type-animation";
 
 const Cabecalho = styled.header`
-  height: 300px;
+  height: 250px;
   
   background-color: #0A192F;
   /* background-image: url(${banner3});
@@ -19,7 +19,7 @@ const Cabecalho = styled.header`
   justify-content: space-evenly;
   @media screen and (max-width: 869px) {
     flex-direction: column;
-    height: 450px;
+    height: 350px;
   }
 img {
   width: 250px;
@@ -28,7 +28,6 @@ img {
   p {
     text-align: left;
     width: 280px;
-    margin: 0 100px;
     font-size: 32px;
 
     color: #64FFDA;

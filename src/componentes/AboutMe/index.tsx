@@ -13,7 +13,8 @@ const AboutMeSection = styled.section`
     font-weight: bolder;
     color: #64ffda;
     font-size: 32px;
-    padding-bottom: 64px;
+    padding-bottom: 32px;
+    font-family: 'Michroma', sans-serif;
   }
 
   div {

@@ -23,6 +23,7 @@ const Section = styled.section`
   h3 {
     font-weight: bolder;
     padding-top: 16px;
+    font-family: 'Michroma', sans-serif;
   }
 
   img {
