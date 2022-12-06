@@ -1,7 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import banner from "../../imagens/BannerSite.png";
+import SkateProject from "../../imagens/SkateProject.png";
+import CopaProject from "../../imagens/CopaProject.png";
+import CreditCardProject from "../../imagens/CreditCardProject.png";
+import OrganoProcject from "../../imagens/OrganoProcject.png";
+import NutriProject from "../../imagens/NutriProject.png";
 
 const SectionPrincipal = styled.div`
 background-color: #0a192f;
@@ -51,7 +55,7 @@ const DivMotion = styled.section`
   }
 `;
 
-const images = [banner, banner, banner, banner, banner, banner, banner, banner];
+const images = [SkateProject, CopaProject, CreditCardProject, OrganoProcject, NutriProject];
 
 
 function Carrossel(props: any) {
