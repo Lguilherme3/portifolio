@@ -20,7 +20,7 @@ const DivTitulo = styled.h3`
 
 const DivMotion = styled.div`
   background-color: #0a192f;
-  padding: 0px 55px;
+  padding: 0px 65px;
 
   margin: 0 auto;
   display: flex;
