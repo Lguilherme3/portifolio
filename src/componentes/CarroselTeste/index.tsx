@@ -9,6 +9,10 @@ import logoCss from "../../imagens/css.png";
 import logoTs from "../../imagens/ts.png";
 import banner from "../../imagens/BannerSite.png";
 
+const DivPrincipal = styled.div`
+background-color: #0a192f;
+`
+
 const DivTitulo = styled.h3`
   background-color: #0a192f;
   font-weight: bolder;
@@ -19,16 +23,15 @@ const DivTitulo = styled.h3`
 `;
 
 const DivMotion = styled.div`
-  background-color: #0a192f;
-  padding: 0px 21%;
-
+  width: 848px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 420px) {
-    padding: 0px 65px;
+  @media screen and (max-width: 869px) {
+    width: 300px;
+    
 }
 
   .inner {
@@ -65,7 +68,7 @@ function Carrossel(props: any) {
   }, []);
 
   return (
-    <div id="projetos">
+    <DivPrincipal id="projetos">
       <DivTitulo>Projetos</DivTitulo>
       <DivMotion>
         <motion.div
@@ -86,7 +89,7 @@ function Carrossel(props: any) {
           </motion.div>
         </motion.div>
       </DivMotion>
-    </div>
+    </DivPrincipal>
   );
 }
 

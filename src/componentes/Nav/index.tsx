@@ -23,8 +23,8 @@ const LinkList = styled.li`
   }
   @media screen and (max-width: 869px) {
     display: flex;
-    gap: 8px;
-    flex-direction: column;
+    gap: 24px;
+    font-size: 12px;
 }
   
 `;
