@@ -22,7 +22,7 @@ const Section = styled.section`
   h2,
   h3 {
     font-weight: bolder;
-    padding: 64px 0px;
+    padding: 32px 0px;
     font-family: 'Michroma', sans-serif;
   }
 
