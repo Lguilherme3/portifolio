@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+const navOpcoes = ['Sobre mim', 'Skills', 'Contato', 'Projetos']
+
 const Section = styled.section`
   background-color: #0a192ff4;
   display: flex;
@@ -7,7 +9,7 @@ const Section = styled.section`
   
 `;
 
-const LinkList = styled.li`
+const LinkList = styled.ul`
   padding: 16px;
   list-style: none;
 
@@ -32,6 +34,9 @@ const LinkList = styled.li`
 export default function Nav() {
   return (
     <Section>
+
+    
+
       <LinkList>
         <li>
           <a href="#sobreMin">Sobre mim</a>

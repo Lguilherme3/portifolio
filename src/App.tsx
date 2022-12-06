@@ -1,4 +1,4 @@
-import "./App.css";
+
 import Header from "./componentes/Header";
 import SkillsSection from "./componentes/SkillsSection";
 import AboutMe from "./componentes/AboutMe";
