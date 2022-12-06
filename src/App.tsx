@@ -5,6 +5,7 @@ import AboutMe from "./componentes/AboutMe";
 import Contacts from "./componentes/Contact";
 import Nav from "./componentes/Nav";
 import Footer from "./componentes/Footer";
+import Carrossel from "./componentes/CarroselTeste";
 
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
       <Nav />
       <SkillsSection />
       <AboutMe />
+      <Carrossel />
       <Footer />
-      
       
     </div>
   );

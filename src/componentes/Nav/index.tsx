@@ -8,10 +8,7 @@ const Section = styled.section`
 `;
 
 const LinkList = styled.li`
-  width: 300px;
-
   padding: 16px;
-
   list-style: none;
 
   display: flex;
@@ -44,6 +41,9 @@ export default function Nav() {
         </li>
         <li>
           <a href="#contato">Contato</a>
+        </li>
+        <li>
+          <a href="#projetos">Projetos</a>
         </li>
       </LinkList>
     </Section>
