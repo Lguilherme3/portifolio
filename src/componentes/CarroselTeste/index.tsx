@@ -20,12 +20,16 @@ const DivTitulo = styled.h3`
 
 const DivMotion = styled.div`
   background-color: #0a192f;
-  padding: 0px 65px;
+  padding: 0px 21%;
 
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 420px) {
+    padding: 0px 65px;
+}
 
   .inner {
     display: flex;
@@ -50,7 +54,7 @@ const DivMotion = styled.div`
   }
 `;
 
-const images = [banner, banner, banner, banner, banner, banner];
+const images = [banner, banner, banner, banner, banner, banner, banner, banner];
 
 function Carrossel(props: any) {
   const carousel = useRef(props);
