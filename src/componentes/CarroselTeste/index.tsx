@@ -49,11 +49,6 @@ const DivMotion = styled.div`
     height: 80%;
     border-radius: 12px;
     pointer-events: none;
-
-    @media screen and (max-width: 869px) {
-    width: 30%;
-    height: 80%;
-    
   }
 
   .carousel {
