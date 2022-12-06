@@ -1,12 +1,11 @@
 import styled from "styled-components";
-
-const navOpcoes = ['Sobre mim', 'Skills', 'Contato', 'Projetos']
+import { Link, animateScroll as scroll } from "react-scroll";
+const navOpcoes = ["Sobre mim", "Skills", "Contato", "Projetos"];
 
 const Section = styled.section`
   background-color: #0a192ff4;
   display: flex;
   justify-content: center;
-  
 `;
 
 const LinkList = styled.ul`
@@ -16,41 +15,78 @@ const LinkList = styled.ul`
   display: flex;
   gap: 64px;
 
-  a {
+  p {
     color: white;
     text-decoration: none;
   }
-  a:hover {
+  p:hover {
     color: #64ffda;
+    cursor: pointer;
   }
   @media screen and (max-width: 869px) {
     display: flex;
     gap: 24px;
     font-size: 12px;
-}
-  
+  }
 `;
 
 export default function Nav() {
   return (
     <Section>
-
-    
-
       <LinkList>
         <li>
-          <a href="#sobreMin">Sobre mim</a>
+          <Link
+           
+            activeClass="active"
+            to="sobreMin"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <p>Sobre mim</p>
+          </Link>
         </li>
+
         <li>
-          <a href="#skills">Skills</a>
+          <Link
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <p>Skills</p>
+          </Link>
         </li>
+
         <li>
-          <a href="#contato">Contato</a>
+          <Link
+            activeClass="active"
+            to="contato"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <p>Contato</p>
+          </Link>
         </li>
+
         <li>
-          <a href="#projetos">Projetos</a>
+          <Link
+            activeClass="active"
+            to="projetos"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <p>Projetos</p>
+          </Link>
         </li>
       </LinkList>
-    </Section>
+   </Section>
   );
 }
