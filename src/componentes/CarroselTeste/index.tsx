@@ -29,7 +29,7 @@ const DivMotion = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 869px) {
     width: 300px;
     
 }
@@ -49,6 +49,11 @@ const DivMotion = styled.div`
     height: 80%;
     border-radius: 12px;
     pointer-events: none;
+
+    @media screen and (max-width: 869px) {
+    width: 30%;
+    height: 80%;
+    
   }
 
   .carousel {
@@ -82,7 +87,9 @@ function Carrossel(props: any) {
             dragConstraints={{ right: 0, left: -width }}
           >
             {images.map((image) => (
-              <motion.div className="item" key={image}>
+              <motion.div 
+              className="item" 
+              key={image}>
                 <img src={image} alt="texto alt" />
               </motion.div>
             ))}
