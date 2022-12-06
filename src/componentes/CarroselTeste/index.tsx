@@ -9,7 +9,7 @@ import logoCss from "../../imagens/css.png";
 import logoTs from "../../imagens/ts.png";
 import banner from "../../imagens/BannerSite.png";
 
-const DivPrincipal = styled.div`
+const SectionPrincipal = styled.section`
 background-color: #0a192f;
 `
 
@@ -29,10 +29,10 @@ const DivMotion = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 869px) {
+  /* @media screen and (max-width: 869px) {
     width: 300px;
     
-}
+} */
 
   .inner {
     display: flex;
@@ -68,7 +68,7 @@ function Carrossel(props: any) {
   }, []);
 
   return (
-    <DivPrincipal id="projetos">
+    <SectionPrincipal id="projetos">
       <DivTitulo>Projetos</DivTitulo>
       <DivMotion>
         <motion.div
@@ -89,7 +89,7 @@ function Carrossel(props: any) {
           </motion.div>
         </motion.div>
       </DivMotion>
-    </DivPrincipal>
+    </SectionPrincipal>
   );
 }
 
