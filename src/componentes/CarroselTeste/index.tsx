@@ -23,16 +23,16 @@ const DivTitulo = styled.h3`
 `;
 
 const DivMotion = styled.div`
-  width: 848px;
+  max-width: 848px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  /* @media screen and (max-width: 869px) {
+  @media screen and (max-width: 500px) {
     width: 300px;
     
-} */
+}
 
   .inner {
     display: flex;
