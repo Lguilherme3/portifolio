@@ -9,6 +9,11 @@ import NutriProject from "../../imagens/NutriProject.png";
 
 const SectionPrincipal = styled.div`
 background-color: #0a192f;
+p {
+  color: white;
+  font-size: 12px;
+  padding-bottom: 16px;
+}
 `
 
 const DivTitulo = styled.h3`
@@ -94,6 +99,9 @@ function Carrossel(props: any) {
           </motion.div>
         </motion.div>
       </DivMotion>
+      <p>Arraste para lado 
+
+      </p>
     </SectionPrincipal>
   );
 }
